@@ -1,0 +1,14 @@
+button {
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  background-color: rgb(136, 85, 67);
+  padding: 15px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  background-color: rgb(240, 71, 10);
+}

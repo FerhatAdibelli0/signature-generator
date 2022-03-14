@@ -1,0 +1,25 @@
+form input {
+  border: 2px solid transparent;
+  border-bottom: 2px solid rgb(25, 25, 49);
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+form label {
+  display: inline-block;
+  width: 110px;
+  margin-left: 20px;
+  text-decoration: underline;
+  color: rgb(192, 113, 10);
+}
+
+form div {
+  margin-top: 15px;
+}
+
+form  button {
+  margin-left: 560px;
+}
