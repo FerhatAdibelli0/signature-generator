@@ -3,12 +3,12 @@ import EnteredDetails from "./components/EnteredDetails";
 import { useState } from "react";
 
 function App() {
-  const [data, setData] = useState();
-  console.log(data);
+  const [enteredData, setEnteredData] = useState();
+  console.log(enteredData);
 
   const dataHandler = (data) => {
-    setData((previous) => {
-      return { ...previous, data };
+    setEnteredData((previous) => {
+      return {...previous, ...data};
     });
   };
 

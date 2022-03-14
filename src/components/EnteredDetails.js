@@ -63,32 +63,32 @@ const EnteredDetails = (props) => {
           <input type="email" ref={enteredEmailRef} />
         </div>
         <div>
-          <label htmlFor="Name">Address</label>
-          <input type="text" />
-          <label htmlFor="Name">Url</label>
-          <input type="url" />
+          <label htmlFor="address">Address</label>
+          <input type="text" ref={enteredAddressRef} />
+          <label htmlFor="url">Url</label>
+          <input type="url" ref={enteredUrlRef} />
         </div>
         <div>
           <label htmlFor="office">Office Phone</label>
-          <input type="tel" />
+          <input type="tel" ref={enteredOfficeRef} />
           <label htmlFor="mobile">Mobile Phone</label>
-          <input type="password" />
+          <input type="tel" ref={enteredMobileRef} />
         </div>
         <div>
           <label htmlFor="facebook">Facebook Url</label>
-          <input type="url" />
+          <input type="url" ref={enteredFaceRef} />
           <label htmlFor="twitter">Twitter Url</label>
-          <input type="url" />
+          <input type="url" ref={enteredTwitterRef} />
         </div>
         <div>
           <label htmlFor="linkedin">Linkedin Url</label>
-          <input type="url" />
+          <input type="url" ref={enteredLinkedRef} />
           <label htmlFor="instagram">Instagram Url</label>
-          <input type="url" />
+          <input type="url" ref={enteredInstagramRef} />
         </div>
         <div>
           <label htmlFor="image">İmage Url</label>
-          <input type="url" />
+          <input type="url" ref={enteredImageRef} />
         </div>
       </div>
       <Button type="submit" />
