@@ -1,0 +1,41 @@
+div h2 {
+  text-align: center;
+}
+
+img {
+  float: right;
+  border-radius: 50%;
+}
+
+div label {
+  margin-top: 3px;
+  font-weight: bold;
+}
+
+.second span {
+  display: inline-block;
+  font-style: italic;
+}
+.second label {
+  display: block;
+}
+.second svg{
+  margin-right: 2px;
+}
+
+.clearfix span a {
+  display: inline-block;
+  margin: 5px;
+}
+
+.icons{
+  display: inline-block;
+  margin-left: 500px;
+}
+
+
+.clearfix{
+  content: "";
+  clear: both;
+  display: table;
+}

@@ -1,27 +1,29 @@
 import Card from "./UI/Card";
 import EnteredDetails from "./components/EnteredDetails";
-import { useState } from "react";
+import { Fragment, useState } from "react";
+import OutputedValues from "./components/OutputedValues";
 
 function App() {
-  const [enteredData, setEnteredData] = useState();
-  console.log(enteredData);
+  const [hasData, setHasData] = useState(false);
+  const [enteredData, setEnteredData] = useState(null);
 
   const dataHandler = (data) => {
     setEnteredData((previous) => {
-      return {...previous, ...data};
+      return { ...previous, ...data };
     });
+    setHasData(true);
   };
 
   return (
-    <div>
+    <Fragment>
       <Card>
         <EnteredDetails onAdd={dataHandler} />
       </Card>
       <Card>
-        <h2>This is header two</h2>
-        <h2>This is header two</h2>
+        {hasData && <OutputedValues data={enteredData} />}
+        {!hasData && <OutputedValues header="There is not signature yet" />}
       </Card>
-    </div>
+    </Fragment>
   );
 }
 

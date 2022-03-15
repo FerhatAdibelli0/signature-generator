@@ -5,7 +5,11 @@ button {
   background-color: rgb(136, 85, 67);
   padding: 15px;
   margin: 15px;
+  margin-top: 0px;
   cursor: pointer;
+  display: inline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
 }
 
 button:hover,

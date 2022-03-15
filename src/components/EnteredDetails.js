@@ -89,9 +89,9 @@ const EnteredDetails = (props) => {
         <div>
           <label htmlFor="image">İmage Url</label>
           <input type="url" ref={enteredImageRef} />
+          <Button type="submit" />
         </div>
       </div>
-      <Button type="submit" />
     </form>
   );
 };
