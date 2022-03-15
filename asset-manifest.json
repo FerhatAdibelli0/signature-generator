@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/signature-generator/static/css/main.4bae062f.css",
+    "main.js": "/signature-generator/static/js/main.5472a609.js",
+    "index.html": "/signature-generator/index.html",
+    "main.4bae062f.css.map": "/signature-generator/static/css/main.4bae062f.css.map",
+    "main.5472a609.js.map": "/signature-generator/static/js/main.5472a609.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bae062f.css",
+    "static/js/main.5472a609.js"
+  ]
+}
